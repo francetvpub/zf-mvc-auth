@@ -1,0 +1,8 @@
+parameters:
+    git_dir: .
+    bin_dir: vendor/bin
+    tasks:
+      phpunit:
+        config_file: phpunit.xml
+      phpcs:
+        standard: phpcs.xml
