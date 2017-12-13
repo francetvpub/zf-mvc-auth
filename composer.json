@@ -8,20 +8,13 @@
         "zend",
         "module"
     ],
-    "homepage": "http://apigility.org/",
-    "support": {
-        "email": "apigility-users@zend.com",
-        "irc": "irc://irc.freenode.net/apigility",
-        "source": "https://github.com/zfcampus/zf-apigility-skeleton",
-        "issues": "https://github.com/zfcampus/zf-apigility-skeleton/issues"
-    },
     "config": {
         "process-timeout": 5000
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.4-dev",
-            "dev-develop": "1.5-dev"
+        "zf": {
+            "component": "Zend\\Log",
+            "config-provider": "Zend\\Log\\ConfigProvider"
         }
     },
     "require": {
