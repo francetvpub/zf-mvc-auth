@@ -23,7 +23,6 @@
     </rule>
 
     <!-- Paths to check -->
-    <file>config</file>
     <file>features</file>
     <file>src</file>
 </ruleset>
