@@ -23,6 +23,5 @@
     </rule>
 
     <!-- Paths to check -->
-    <file>features</file>
     <file>src</file>
 </ruleset>
