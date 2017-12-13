@@ -13,12 +13,12 @@
     },
     "extra": {
         "zf": {
-            "component": "Zend\\Log",
-            "config-provider": "Zend\\Log\\ConfigProvider"
+            "component": "Ftp\\MvcAuth"
         }
     },
     "require": {
         "php": "^7.1",
+        "ext-redis" : "*",
         "zfcampus/zf-mvc-auth": "^1.4.2",
         "doctrine/doctrine-orm-module": "^1.1",
         "dkorsak/doctrine-data-fixture-module": "^1.0",
