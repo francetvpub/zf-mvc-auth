@@ -33,7 +33,7 @@ class ConfigProvider
             'router' => $this->getRouterConfig()
         ];
     }
-    
+
     public function getOpenIdConfig() : array
     {
         return [
@@ -43,7 +43,7 @@ class ConfigProvider
             'revocation_endpoint' => (string)getenv('OPENID_REVOCATION_ENDPOINT')
         ];
     }
-    
+
     public function getCachesConfig() : array
     {
         return [
@@ -67,7 +67,7 @@ class ConfigProvider
             ]
         ];
     }
-    
+
     public function getRouterConfig() : array
     {
         return [
@@ -139,7 +139,7 @@ class ConfigProvider
             ]
         ];
     }
-    
+
     public function getControllersConfig() : array
     {
         return [
@@ -164,7 +164,7 @@ class ConfigProvider
             ]
         ];
     }
-    
+
     public function getDoctrineConfig() : array
     {
         return [
